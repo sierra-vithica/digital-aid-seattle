@@ -87,8 +87,6 @@ export default function Home () {
     )
   }
 
-  console.log('Donation List', donationList)
-
   // Handle deleting a donation by removing it from the donation list
   const handleDelete = (donationListId) => {
     const updatedDonationList = { ...donationList }
